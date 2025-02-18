@@ -35,7 +35,7 @@ echo -e "${purple}《5》 PHP Sunucu✌️${reset}"
 echo -e "${purple}《6》 SMS Bomber✌️${reset}"
 echo -e "${purple}《7》 Fake Number [VIP]✌️${reset}"
 echo -e "${purple}《8》 Kaba Kuvet✌️${reset}"
-echo -e "${purple}《9》 Telegram Grup✌️  ${cyan}https://t.me/JTH_chat${reset}"
+echo -e "${purple}《9》 Telegram Grup✌️"
 echo -e "${purple}《99》 ✌️ EXIT${reset}"
 echo ""
 
