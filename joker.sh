@@ -35,7 +35,7 @@ echo -e "${purple}《5》 PHP Sunucu✌️${reset}"
 echo -e "${purple}《6》 SMS Bomber✌️${reset}"
 echo -e "${purple}《7》 Fake Number [VIP]✌️${reset}"
 echo -e "${purple}《8》 Kaba Kuvet✌️${reset}"
-echo -e "${purple}《9》 Telegram Grup✌️"
+echo -e "${purple}《9》 Telegram Grup✌️  ${cyan}https://t.me/JTH_chat${reset}"
 echo -e "${purple}《99》 ✌️ EXIT${reset}"
 echo ""
 
@@ -57,7 +57,10 @@ case $secim in
         ;;
     4)
         echo -e "${red}IP Sorgu Aracı Yükleniyor...${reset}"
-        git clone https://github.com/Illegal2/JthTeame.git ip_query
+        # IP sorgulama betiğini indir
+        curl -o ip_sorgu.sh https://raw.githubusercontent.com/Illegal2/JthTeame/master/ip_sorgu.sh
+        chmod +x ip_sorgu.sh
+        ./ip_sorgu.sh
         ;;
     5)
         echo -e "${red}PHP Sunucu Kuruluyor...${reset}"
