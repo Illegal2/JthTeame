@@ -20,7 +20,7 @@ echo -e "${red}     ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚═�
 echo ""
 echo -e "${yellow}      🃏 JOKER TEAM 🃏${reset}"
 echo ""
-echo -e "${cyan}   GitHub: https://github.com/joker-team${reset}"
+echo -e "${cyan}   GitHub: https://github.com/Illegal2/JthTeame.git${reset}"
 echo -e "${cyan}   Telegram: https://t.me/JTH_chat${reset}"
 echo ""
 echo -e "${green}   ⚠️  Bu araç yalnızca eğitim amaçlıdır!${reset}"
@@ -43,15 +43,46 @@ echo ""
 read -p "Seçiminizi Yapın: " secim
 
 case $secim in
-    1) echo -e "${red}DDOS Saldırı Aracı Yükleniyor...${reset}";;
-    2) echo -e "${red}Sosyal Medya Hack Aracı Yükleniyor...${reset}";;
-    3) echo -e "${red}Wifi Hack Aracı Yükleniyor...${reset}";;
-    4) echo -e "${red}IP Sorgu Aracı Yükleniyor...${reset}";;
-    5) echo -e "${red}PHP Sunucu Kuruluyor...${reset}";;
-    6) echo -e "${red}SMS Bomber Aracı Yükleniyor...${reset}";;
-    7) echo -e "${red}Fake Number [VIP] Aracı Yükleniyor...${reset}";;
-    8) echo -e "${red}Kaba Kuvvet Aracı Yükleniyor...${reset}";;
-    9) termux-open-url "https://t.me/JTH_chat";;
-    99) echo -e "${yellow}Çıkış yapılıyor...${reset}"; exit;;
-    *) echo -e "${red}Geçersiz Seçim!${reset}";;
+    1) 
+        echo -e "${red}DDOS Saldırı Aracı Yükleniyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git ddos
+        ;;
+    2)
+        echo -e "${red}Sosyal Medya Hack Aracı Yükleniyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git social_media_hack
+        ;;
+    3)
+        echo -e "${red}Wifi Hack Aracı Yükleniyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git wifi_hack
+        ;;
+    4)
+        echo -e "${red}IP Sorgu Aracı Yükleniyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git ip_query
+        ;;
+    5)
+        echo -e "${red}PHP Sunucu Kuruluyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git php_server
+        ;;
+    6)
+        echo -e "${red}SMS Bomber Aracı Yükleniyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git sms_bomber
+        ;;
+    7)
+        echo -e "${red}Fake Number [VIP] Aracı Yükleniyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git fake_number_vip
+        ;;
+    8)
+        echo -e "${red}Kaba Kuvvet Aracı Yükleniyor...${reset}"
+        git clone https://github.com/Illegal2/JthTeame.git kaba_kuvet
+        ;;
+    9) 
+        termux-open-url "https://t.me/JTH_chat"
+        ;;
+    99)
+        echo -e "${yellow}Çıkış yapılıyor...${reset}"
+        exit
+        ;;
+    *)
+        echo -e "${red}Geçersiz Seçim!${reset}"
+        ;;
 esac
